@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Movie_Search"
+        android:title="Movie Search"
+        android:icon="@drawable/ic_menu_camera"
+        />
+    <item
+        android:id="@+id/Movie_Memoir"
+        android:title="Movie Memoir"
+        android:icon="@drawable/ic_menu_slideshow"/>
+    <item
+        android:id="@+id/Watchlist"
+        android:title="Watchlist"
+        android:icon="@drawable/ic_menu_gallery"
+        />
+    <item
+        android:id="@+id/Report"
+        android:title="Report"
+        android:icon="@drawable/ic_menu_camera"/>
+    <item
+        android:id="@+id/Maps"
+        android:icon="@drawable/ic_menu_map"
+        android:title="Maps" />
+</menu>

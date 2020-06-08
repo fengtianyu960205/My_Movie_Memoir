@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/ViewMovieImage"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/loading"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:id="@+id/ActualMovieName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Name"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/ActualReleaseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Release Date"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/ActualMovieGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Genre"
+                     />
+
+                <TextView
+                    android:id="@+id/ActualMovieCountry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Country"
+                     />
+
+                <TextView
+                    android:id="@+id/Director"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Director:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/show_directors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Country"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ViewMoviePlot"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Movie Plot"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ActualMoviePlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Plot"
+             />
+
+
+        <TextView
+            android:id="@+id/ViewMovieCast"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Movie Cast"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ActualMovieCast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Cast"
+            android:textSize="16sp" />
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/Score"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Score"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:id="@+id/rateScoreStar"/>
+
+        <Button
+            android:id="@+id/addToMemoir_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="add to Memoir "
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/addWatchList_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="add to Watch List "
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+

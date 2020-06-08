@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My_Movie_Memoir</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="array_state">
+        <item>VIC</item>
+        <item>NT</item>
+        <item>SA</item>
+        <item>ACT</item>
+        <item>WA</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string-array name="array_Year">
+        <item>2019</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2015</item>
+        <item>2020</item>
+    </string-array>
+
+</resources>
